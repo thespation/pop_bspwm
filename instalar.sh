@@ -16,7 +16,7 @@ sudo apt install bspwm polybar sxhkd rofi mate-polkit -y
 echo "########## Instalando aplicativos essenciais (nitrogen, lxappearance e dmenu) ##########"
 sudo apt install nitrogen lxappearance dmenu -y
 
-echo "########## Aplicativos opcionais (neofetch, htop scrot e compton) ##########"
+echo "########## Aplicativos complementares (neofetch, htop scrot e compton) ##########"
 sudo apt install neofetch htop scrot compton -y
 
 echo "########## Habilitar rofi na tecla super ##########"
@@ -29,16 +29,16 @@ echo "########## Fontes necessárias copiadas ##########"
 cp -r /tmp/pop_bspwm/fonts/* ~/.fonts
 
 echo "########## Pasta polybar copiada ##########"
-cp -r /tmp/pop_bspwm/polybar ~/.config && cd ~/.config/polybar
+cp -r /tmp/pop_bspwm/polybar ~/.config
 
 echo "########## Pasta rofi copiada ##########"
-cp -r /tmp/pop_bspwm/rofi ~/.config && cd ~/.config/rofi
+cp -r /tmp/pop_bspwm/rofi ~/.config
 
 echo "########## Pasta sxhkd copiada ##########"
-cp -r /tmp/pop_bspwm/sxhkd ~/.config && cd ~/.config/sxhkd
+cp -r /tmp/pop_bspwm/sxhkd ~/.config
 
 echo "########## Pasta bspwm copiada ##########"
-cp -r /tmp/pop_bspwm/bspwm ~/.config && cd ~/.config/bspwm
+cp -r /tmp/pop_bspwm/bspwm ~/.config
 
 echo "########## Removendo botões de janela e aplicando tema PopOs ##########"
 cp -rf /tmp/pop_bspwm/gtk-3.0/ ~/.config/
