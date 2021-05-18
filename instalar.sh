@@ -2,7 +2,8 @@
 # script: PopOs BSPWM
 # descrição: Instalar BSPWM no Pop!_OS
 # autor: William Santos
-# version: 
+# site: https://github.com/thespation/pop_bspwm
+# version: 1
 
 clear
 
