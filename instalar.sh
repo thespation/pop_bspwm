@@ -10,7 +10,7 @@ clear
 echo "########## Atualizando sistema ##########"
 sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y
 
-echo "########## Instalando base BSPWM (bspwm, polybar, sxhkd, rofi e mate-polkit) ##########m"
+echo "########## Instalando base BSPWM (bspwm, polybar, sxhkd, rofi e mate-polkit) ##########"
 sudo apt install bspwm polybar sxhkd rofi mate-polkit -y
 
 echo "########## Instalando aplicativos essenciais (nitrogen, lxappearance e dmenu) ##########"
