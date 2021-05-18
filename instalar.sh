@@ -31,16 +31,17 @@ echo "Fontes necessárias copiadas"
 cp -r ~/Downloads/pop_bspwm/fonts/* ~/.fonts
 
 echo "Pasta polybar copiada"
-cp -r ~/Downloads/pop_bspwm/polybar ~/.config && cd ~/.config/polybar && chmod -R a+rX *
+cp -r ~/Downloads/pop_bspwm/polybar ~/.config && cd ~/.config/polybar && chmod 755 ~/.config/polybar/* -R
 
 echo "Pasta rofi copiada"
-cp -r ~/Downloads/pop_bspwm/rofi ~/.config && cd ~/.config/rofi && chmod -R a+rX *
+cp -r ~/Downloads/pop_bspwm/rofi ~/.config && cd ~/.config/rofi && chmod 755 ~/.config/rofi/* -R
 
 echo "Pasta sxhkd copiada"
-cp -r ~/Downloads/pop_bspwm/sxhkd ~/.config && cd ~/.config/sxhkd && chmod -R a+rX *
+cp -r ~/Downloads/pop_bspwm/sxhkd ~/.config && cd ~/.config/sxhkd && chmod 755 ~/.config/sxhkd/* -R
 
 echo "Pasta bspwm copiada"
-cp -r ~/Downloads/pop_bspwm/bspwm ~/.config && cd ~/.config/bspwm && chmod -R a+rX *
+cp -r ~/Downloads/pop_bspwm/bspwm ~/.config && cd ~/.config/bspwm && chmod 755 ~/.config/bspwm/* -R
 
 echo "Removendo botões de janela e aplicando tema PopOs"
-mv ~/.config/gtk-3.0/settings.ini ~/.config/gtk-3.0/settings.ini.old && cp -r ~/Downloads/pop_bspwm/gtk-3.0/settings.ini ~/.config/gtk-3.0/
+mv ~/.config/gtk-3.0/settings.ini ~/.config/gtk-3.0/settings.ini.old
+cp -r ~/Downloads/pop_bspwm/gtk-3.0/settings.ini ~/.config/gtk-3.0/ && chmod -R a+rX *
