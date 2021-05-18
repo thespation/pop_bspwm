@@ -7,9 +7,10 @@
 
 # Preparar para rodar script
 
-### Em seu terminal, rode o comando
+### Em seu terminal, rode o comando abaixo para começar a instalação
+
 ```bash
-sudo apt install curl -y
+cd /tmp && git clone https://github.com/thespation/pop_bspwm && chmod 755 pop_bspwm/* -R && cd pop_bspwm/ && ./instalar.sh
 ```
 
 <br/>
