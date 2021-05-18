@@ -44,4 +44,4 @@ echo "Pasta bspwm copiada"
 cp -r ~/Downloads/pop_bspwm/bspwm ~/.config && cd ~/.config/bspwm && chmod 755 ~/.config/bspwm/* -R
 
 echo "Removendo botões de janela e aplicando tema PopOs"
-mkdir ~/.config/gtk-3.0 && cp -rf ~/Downloads/pop_bspwm/gtk-3.0/settings.ini ~/.config/gtk-3.0/ && chmod 755 ~/.config/gtk-3.0/* -R
+cp -rf ~/Downloads/pop_bspwm/gtk-3.0/ ~/.config/ && chmod 755 ~/.config/gtk-3.0/* -R
