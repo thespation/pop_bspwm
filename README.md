@@ -16,6 +16,27 @@ Esse script foi testado e está disponível para ser executado no PoP!_OS 20.10 
 
 ![image](https://user-images.githubusercontent.com/84329097/118705462-a39ce500-b7ee-11eb-8429-061b1ddaa841.png)
 
+
+#### Mais telas
+> Clique para visualizar
+<details>
+<summary><b>Capturas de tela</b></summary>
+<br>
+  
+![image](https://user-images.githubusercontent.com/84329097/118722356-73f7d800-b802-11eb-8c71-e84761ba609e.png)
+
+![image](https://user-images.githubusercontent.com/84329097/118722373-79edb900-b802-11eb-9778-2e4f3cc93999.png)
+
+![image](https://user-images.githubusercontent.com/84329097/118722392-7fe39a00-b802-11eb-9cbb-3a4dd69922e5.png)
+
+![image](https://user-images.githubusercontent.com/84329097/118722448-8a059880-b802-11eb-81c9-24bc27c50971.png)
+
+![image](https://user-images.githubusercontent.com/84329097/118722465-8eca4c80-b802-11eb-8968-4a7d2d187cbe.png)
+
+![image](https://user-images.githubusercontent.com/84329097/118723443-d1d8ef80-b803-11eb-8e30-b4b41343b54b.png)
+
+</details>
+
 ##
 
 ### Instalação
@@ -42,8 +63,9 @@ cd /tmp && git clone https://github.com/thespation/pop_bspwm && chmod 755 pop_bs
 - **`htop`** : gerenciador de tarefas em modo texto
 - **`compton`** : responsável por fornecer a possibilidade de transparência, sombra e efeitos visuais
 
+> Clique para visualizar
 <details>
-<summary><b>Fontes utilizadas para exibir polybar corretamente</b></summary>
+<summary><b>Fonts utilizadas para exibir polybar corretamente</b></summary>
 
 Fontes usadas por esse tema:
 
@@ -76,7 +98,10 @@ Uma vez instalado, para que consiga acessar o sistema utilizando o gerenciador d
 
 ##
 
-### Menu de aplicativos
+#### Personalização
+> Clique para visuaizar o conteúdo
+<details>
+<summary><b>Menu de aplicativos</b></summary>
 
 Seu sistema iniciará sem papel de parede, um tema bem feio e com alguns detalhes faltando refinamento.
 
@@ -91,8 +116,11 @@ Por esse ícone no canto superior esquerdo.
 
 - `Maneira 3`: pressionando <kbd>Alt</kbd> + <kbd>F1</kbd>
 
-
-### Personalizar Tema e ícones
+##
+</details>
+  
+<details>
+<summary><b>Personalizar Tema e ícones</b></summary>
 
 Com Rofi aberto, escreva *personalizar* e abra o app:
 
@@ -109,7 +137,11 @@ Para o *Tema de ícones* escolhi *Pop*:
 
 clique em <kbd>Aplicar</kbd> para que as alterações entrem em vigor.
 
-### Papel de parede
+##
+</details>
+
+<details>
+<summary><b>Papel de parede</b></summary>
 
 No menu de aplicativos, escreva *nitrogen* para buscar:
 
@@ -138,9 +170,60 @@ Com isso perceberá que aparecem os mesmos papeis de parede que o PopOs com gnom
 obs: para fechar a janela, pressione <kbd>Super</kbd> + <kbd>c</kbd>.
 
 ##
-
-### Terminal minimalista e com transparência
-
+</details>
 
 
+<details>
+<summary><b>Terminal minimalista e com transparência</b></summary>
 
+Para abrir o terminal, pressione  <kbd>Super</kbd> +  <kbd>Enter</kbd>
+
+Com o terminal aberto, clique com o botão direito do mouse na área do seu terminal e clique em *Preferências*:
+
+![image](https://user-images.githubusercontent.com/84329097/118720337-db605880-b7ff-11eb-94e2-3deeff207cf4.png)
+
+Na aba *Texto*, gosto de deixar a fonte em 9 e mudar a *Forma do Cursor* para *Sublinhado*
+
+![image](https://user-images.githubusercontent.com/84329097/118720441-f92dbd80-b7ff-11eb-8b51-48578b0795c1.png)
+
+Na aba *Cores* marque a opção *Use transparent background* e ajuste conforme desejado:
+
+![image](https://user-images.githubusercontent.com/84329097/118720542-18c4e600-b800-11eb-9a6a-5a9b2d2d7e73.png)
+
+Na *Rolagem* desmarque a opção *Mostrar barra de rolagem*
+
+![image](https://user-images.githubusercontent.com/84329097/118720595-2e3a1000-b800-11eb-9ebe-efc957cede06.png)
+
+No menu *Geral* desmarque a opção *Mostrar por padrão barra de menu em novas janelas*
+
+![image](https://user-images.githubusercontent.com/84329097/118720658-44e06700-b800-11eb-89ea-99157ce62419.png)
+
+Tudo configurado, pode fechar o terminal com <kbd>Super</kbd> + <kbd>c</kbd> e pode reabrir (<kbd>Super</kbd> + <kbd>Enter</kbd> ) para ver como ficou. Deve ficar desta forma:
+
+![image](https://user-images.githubusercontent.com/84329097/118720775-680b1680-b800-11eb-8b73-4c3ec38ca6e0.png)
+
+##
+</details>
+
+<details>
+<summary><b>Menu de desligamento</b></summary>
+
+No canto superior direito existe um botão vermelho com a função de ter as seguintes possibilidades: Bloquear a tela, Deixar o computador em espera, Sair (logoff), Reiniciar e Desligar:
+
+![image](https://user-images.githubusercontent.com/84329097/118721077-c59f6300-b800-11eb-9f52-c6aeffa87672.png)
+
+Uma vez escolhida uma função, *Sair* por exemplo, o sistema pede uma confirmação:
+
+![image](https://user-images.githubusercontent.com/84329097/118721133-dd76e700-b800-11eb-85dc-624e8c7817f6.png)
+
+O sistema foi configurado para entender as seguintes alternativas:
+
+![image](https://user-images.githubusercontent.com/84329097/118721167-e667b880-b800-11eb-9ee8-efe28a38f93e.png)
+
+Observação: para utilizar as funções Bloquear e Em espera é necessário ter instalado o betterlockscreen ([link com instruções de instalação](https://github.com/pavanjadhaw/betterlockscreen#installation)).
+
+</details>
+
+##
+### Créditos:
+Tanto os menus, polybar e configurações para bspwm quanto sxhkd foram elaborados pelo [Aditya Shakya](https://github.com/adi1090x) que disponibilizou em seu Github ([polybar](https://github.com/adi1090x/polybar-themes) e [rofi](https://github.com/adi1090x/rofi)).
