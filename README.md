@@ -99,7 +99,7 @@ Uma vez instalado, para que consiga acessar o sistema utilizando o gerenciador d
 ##
 
 #### Personalização
-> Clique para visuaizar o conteúdo
+> Clique para visualizar o conteúdo
 <details>
 <summary><b>Menu de aplicativos</b></summary>
 
