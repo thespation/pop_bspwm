@@ -29,16 +29,16 @@ echo "########## Fontes necessárias copiadas ##########"
 cp -r /tmp/pop_bspwm/fonts/* ~/.fonts
 
 echo "########## Pasta polybar copiada ##########"
-cp -r /tmp/pop_bspwm/polybar ~/.config && cd ~/.config/polybar && chmod 755 ~/.config/polybar/* -R
+cp -r /tmp/pop_bspwm/polybar ~/.config && cd ~/.config/polybar
 
 echo "########## Pasta rofi copiada ##########"
-cp -r /tmp/pop_bspwm/rofi ~/.config && cd ~/.config/rofi && chmod 755 ~/.config/rofi/* -R
+cp -r /tmp/pop_bspwm/rofi ~/.config && cd ~/.config/rofi
 
 echo "########## Pasta sxhkd copiada ##########"
-cp -r /tmp/pop_bspwm/sxhkd ~/.config && cd ~/.config/sxhkd && chmod 755 ~/.config/sxhkd/* -R
+cp -r /tmp/pop_bspwm/sxhkd ~/.config && cd ~/.config/sxhkd
 
 echo "########## Pasta bspwm copiada ##########"
-cp -r /tmp/pop_bspwm/bspwm ~/.config && cd ~/.config/bspwm && chmod 755 ~/.config/bspwm/* -R
+cp -r /tmp/pop_bspwm/bspwm ~/.config && cd ~/.config/bspwm
 
 echo "########## Removendo botões de janela e aplicando tema PopOs ##########"
-cp -rf /tmp/pop_bspwm/gtk-3.0/ ~/.config/ && chmod 755 ~/.config/gtk-3.0/* -R
+cp -rf /tmp/pop_bspwm/gtk-3.0/ ~/.config/
