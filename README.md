@@ -262,6 +262,8 @@ Legenda: <kbd> W</kbd> = Tecla Windows
 
 <kbd> W</kbd> - Menu de aplicativos
 
+<kbd> W + w </kbd> - Mostra programas abertos (tecla Windows mais a tecla "w")
+
 <kbd> W + 1-8</kbd> - Troca de área de trabalho
 
 <kbd> W + Shift + 1-8</kbd> - Envia app em foco para a área de trabalho desejada
