@@ -8,7 +8,7 @@
    - [`Mais telas`](#mais-telas)
 - [`Instalação`](#instalação)<br>
 - [`Dependências a serem instaladas via script`](#dependências-a-serem-instaladas-via-script)
-   - [`Fonts utilizadas para exibir polybar corretamente`](#fonts-utilizadas-para-exibir-polybar-corretamente)
+   - `Fonts utilizadas para exibir polybar corretamente`
 - [`Acessando o BSPWM`](#acessando-o-bspwm)
 - [`Personalização`](#personalização)
    - `Menu de aplicativos`
