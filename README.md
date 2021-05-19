@@ -3,7 +3,7 @@
 ### Índice
 
 - [`Sobre`](#sobre)
-- [`Sistema base`](sistema-base)
+- [`Sistema base`](#sistema-base)
 - [`Tela do sistema após script`](#tela-do-sistema-após-script)
    - [`Mais telas`](#mais-telas)
 - [`Instalação`](#instalação)<br>
