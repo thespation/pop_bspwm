@@ -2,21 +2,21 @@
 
 ### Índice
 
-> - [`Sobre`](#sobre)<br>
-> - [`Sistema base`](sistema-base)<br>
-> - [`Tela do sistema após script`](#tela-do-sistema-após-script)<br>
->    - [`Mais telas`](#mais-telas)<br>
-> - [`Instalação`](#instalação)<br>
-> - [`Dependências a serem instaladas via script`](#dependências-a-serem-instaladas-via-script)<br>
->    - [`Fonts utilizadas para exibir polybar corretamente`](#fonts-utilizadas-para-exibir-polybar-corretamente)<br>
-> - [`Acessando o BSPWM`](#acessando-o-bspwm)<br>
-> - [`Personalização`](#personalização)<br>
->    - [`Menu de aplicativos`](#menu-de-aplicativos)<br>
->    - 	[`Personalizar Tema e ícones`](#personalizar-tema-e-ícones)<br>
->    - 	[`Papel de parede`](#papel-de-parede)<br>
->    - 	[`Terminal minimalista e com transparência`](#terminal-minimalista-e-com-transparência)<br>
->    - 	[`Menu de desligamento`](#menu-de-desligamento)<br>
-> - [`Créditos`](#créditos)<br>
+- [`Sobre`](#sobre)
+- [`Sistema base`](sistema-base)
+- [`Tela do sistema após script`](#tela-do-sistema-após-script)
+   - [`Mais telas`](#mais-telas)
+- [`Instalação`](#instalação)<br>
+- [`Dependências a serem instaladas via script`](#dependências-a-serem-instaladas-via-script)
+   - [`Fonts utilizadas para exibir polybar corretamente`](#fonts-utilizadas-para-exibir-polybar-corretamente)
+- [`Acessando o BSPWM`](#acessando-o-bspwm)
+- [`Personalização`](#personalização)
+   - `Menu de aplicativos`
+   - 	`Personalizar Tema e ícones`
+   - 	`Papel de parede`
+   - 	`Terminal minimalista e com transparência`
+   - 	`Menu de desligamento`
+- [`Créditos`](#créditos)
 
 
 ### Sobre
