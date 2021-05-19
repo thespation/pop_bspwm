@@ -1,5 +1,24 @@
 # Pop!_OS + bspwm
 
+### Índice
+
+> - [`Sobre`](#sobre)<br>
+> - [`Sistema base`](sistema-base)<br>
+> - [`Tela do sistema após script`](#tela-do-sistema-após-script)<br>
+>    - [`Mais telas`](#mais-telas)<br>
+> - [`Instalação`](#instalação)<br>
+> - [`Dependências a serem instaladas via script`](#dependências-a-serem-instaladas-via-script)<br>
+>    - [`Fonts utilizadas para exibir polybar corretamente`](#fonts-utilizadas-para-exibir-polybar-corretamente)<br>
+> - [`Acessando o BSPWM`](#acessando-o-bspwm)<br>
+> - [`Personalização`](#personalização)<br>
+>    - [`Menu de aplicativos`](#menu-de-aplicativos)<br>
+>    - 	[`Personalizar Tema e ícones`](#personalizar-tema-e-ícones)<br>
+>    - 	[`Papel de parede`](#papel-de-parede)<br>
+>    - 	[`Terminal minimalista e com transparência`](#terminal-minimalista-e-com-transparência)<br>
+>    - 	[`Menu de desligamento`](#menu-de-desligamento)<br>
+> - [`Créditos`](#créditos)<br>
+
+
 ### Sobre
 
 Esse script possui a intenção de instalar o gerenciador de janelas [bspwm](https://github.com/baskerville/bspwm) em conjunto com [polybar](https://github.com/polybar/polybar) e [rofi](https://github.com/davatorium/rofi).
@@ -63,9 +82,10 @@ cd /tmp && git clone https://github.com/thespation/pop_bspwm && chmod 755 pop_bs
 - **`htop`** : gerenciador de tarefas em modo texto
 - **`compton`** : responsável por fornecer a possibilidade de transparência, sombra e efeitos visuais
 
+### Fonts utilizadas para exibir polybar corretamente
 > Clique para visualizar
 <details>
-<summary><b>Fonts utilizadas para exibir polybar corretamente</b></summary>
+<summary><b>Fonts utilizadas</b></summary>
 
 Fontes usadas por esse tema:
 
