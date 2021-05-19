@@ -245,5 +245,48 @@ Observação: para utilizar as funções Bloquear e Em espera é necessário ter
 </details>
 
 ##
+
+### Teclas de atalhos
+Para utilização do *bspwm* vai notar que muitas das vezes o teclado é o nosso melhor amigo, para isso precisamos aprender alguns atalhos interessantes para nossa utilização.
+
+Caso queira personalizar algum, acrecentar ou remover, pode ser realizado editando o arquivos: `~/.config/sxhkd/sxhkdrc`.
+
+Seguem os atalho já configurados:
+
+> Clique para visualizar
+<details>
+<summary><b>Atalhos</b></summary>
+
+Legenda: <kbd> W</kbd> = Tecla Windows
+
+<kbd> W</kbd> - Menu de aplicativos
+
+<kbd> W + 1-8</kbd> - Troca de área de trabalho
+
+<kbd> W + Shift + 1-8</kbd> - Envia app em foco para a área de trabalho desejada
+
+<kbd>W + Enter</kbd> - Terminal
+
+<kbd>W + Barra de espaço</kbd> - troca entre modo tiling / floating
+
+<kbd>W + F</kbd> - modo uma janela
+
+<kbd>W + H/V/Q</kbd> - Prepara a divisão do app na Horizontal, Vertical ou Cancela.
+
+<kbd>W + TAB</kbd> - Volta para ultima área de trabalho aberta
+
+<kbd>W + Shift + 1-8</kbd> - Envia a janela em foco para a área desejada.
+
+<kbd>W + Ctrol + ←/→/↑ /↓ </kbd> - Expande a janela em foco
+
+<kbd>W + Alt + ←/→/↑ /↓</kbd> - Dininui a janela em foco
+
+<kbd>W + C</kbd> - Fecha janela em foco
+
+<kbd>Ctrl + Alt +  ←/→</kbd> - Troca de área de trabalho
+</details>
+
+##
+
 ### Créditos:
 Tanto os menus, polybar e configurações para bspwm quanto sxhkd foram elaborados pelo [Aditya Shakya](https://github.com/adi1090x) que disponibilizou em seu Github ([polybar](https://github.com/adi1090x/polybar-themes) e [rofi](https://github.com/adi1090x/rofi)).
