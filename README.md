@@ -16,6 +16,7 @@
    - 	`Papel de parede`
    - 	`Terminal minimalista e com transparência`
    - 	`Menu de desligamento`
+- [`Teclas de atalhos`](#teclas-de-atalhos)
 - [`Créditos`](#créditos)
 
 
@@ -273,7 +274,7 @@ Legenda: <kbd> W</kbd> = Tecla Windows
 
 <kbd>W + H/V/Q</kbd> - Prepara a divisão do app na Horizontal, Vertical ou Cancela.
 
-<kbd>W + TAB</kbd> - Volta para ultima área de trabalho aberta
+<kbd>W + TAB</kbd> - Volta para última área de trabalho aberta
 
 <kbd>W + Shift + 1-8</kbd> - Envia a janela em foco para a área desejada.
 
