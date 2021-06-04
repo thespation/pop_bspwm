@@ -234,13 +234,7 @@ No canto superior direito existe um botão vermelho com a função de ter as seg
 
 ![image](https://user-images.githubusercontent.com/84329097/118721077-c59f6300-b800-11eb-9f52-c6aeffa87672.png)
 
-Uma vez escolhida uma função, *Sair* por exemplo, o sistema pede uma confirmação:
-
-![image](https://user-images.githubusercontent.com/84329097/118721133-dd76e700-b800-11eb-85dc-624e8c7817f6.png)
-
-O sistema foi configurado para entender as seguintes alternativas:
-
-![image](https://user-images.githubusercontent.com/84329097/118721167-e667b880-b800-11eb-9ee8-efe28a38f93e.png)
+Uma vez escolhida uma função, *Sair* por exemplo, o sistema não pedirá confirmação, executando na mesma hora.
 
 Observação: para utilizar as funções Bloquear e Em espera é necessário ter instalado o betterlockscreen ([link com instruções de instalação](https://github.com/pavanjadhaw/betterlockscreen#installation)).
 
