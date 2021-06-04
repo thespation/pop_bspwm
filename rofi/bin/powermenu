@@ -44,48 +44,21 @@ options="$lock\n$suspend\n$logout\n$reboot\n$shutdown"
 chosen="$(echo -e "$options" | $rofi_command -p "UP - $uptime" -dmenu -selected-row 0)"
 case $chosen in
     $shutdown)
-		ans=$(rdialog &)
-		if [[ $ans == "sim" ]] || [[ $ans == "Sim" ]] || [[ $ans == "s" ]]; then
         systemctl poweroff
-		elif [[ $ans == "nao" ]] || [[ $ans == "NAO" ]] || [[ $ans == "n" ]]; then
-        exit
-        else
-        rofi -theme "$ddir/askpass.rasi" -e "$MSG"
-        fi
         ;;
     $reboot)
-		ans=$(rdialog &)
-		if [[ $ans == "sim" ]] || [[ $ans == "Sim" ]] || [[ $ans == "s" ]]; then
         systemctl reboot
-		elif [[ $ans == "nao" ]] || [[ $ans == "NAO" ]] || [[ $ans == "n" ]]; then
-        exit
-        else
-        rofi -theme "$ddir/askpass.rasi" -e "$MSG"
-        fi
         ;;
     $lock)
         betterlockscreen --lock
         ;;
     $suspend)
-		ans=$(rdialog &)
-		if [[ $ans == "sim" ]] || [[ $ans == "Sim" ]] || [[ $ans == "s" ]]; then
         mpc -q pause
         amixer set Master mute
         betterlockscreen --suspend
-		elif [[ $ans == "nao" ]] || [[ $ans == "NAO" ]] || [[ $ans == "n" ]]; then
-        exit
-        else
-        rofi -theme "$ddir/askpass.rasi" -e "$MSG"
-        fi
         ;;
     $logout)
-		ans=$(rdialog &)
-		if [[ $ans == "sim" ]] || [[ $ans == "Sim" ]] || [[ $ans == "s" ]]; then
         bspc quit
-		elif [[ $ans == "nao" ]] || [[ $ans == "NAO" ]] || [[ $ans == "n" ]]; then
-        exit
-        else
-        rofi -theme "$ddir/askpass.rasi" -e "$MSG"
-        fi
+
         ;;
 esac
