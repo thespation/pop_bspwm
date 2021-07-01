@@ -110,7 +110,7 @@ Fontes usadas por esse tema:
 ##
 
 ### Acessando o bspwm
-Uma vez instalado, para que consiga acessar o sistema utilizando o gerenciador de janelas *bspwm* é necessário selecioná-lo durante o *login*:
+Uma vez instalado, para que consiga acessar o sistema utilizando o gerenciador de janelas *bspwm*, é necessário selecioná-lo durante o *login*:
 - Quando estiver escrevendo a senha, existe uma engrenagem (:gear:) no canto inferior direito, através desse menu podemos trocar para *bspwm*:
 
 ![bspwm](https://user-images.githubusercontent.com/84329097/124183641-e52bdb80-da8e-11eb-8471-3617038172df.png)
