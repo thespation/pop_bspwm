@@ -44,36 +44,34 @@ bspc config focus_follows_pointer true
 bspc rule -r *:*
 
 # 1 > terminal
-bspc rule -a Termite desktop='^1' follow=on focus=on
+#bspc rule -a Termite desktop='^1' follow=on focus=on
 
 # 2 > web
-bspc rule -a firefox desktop='^2' follow=on focus=on
+#bspc rule -a firefox desktop='^2' follow=on focus=on
 
 # 3 > file
-bspc rule -a Pcmanfm desktop='^3' follow=on focus=on
+#bspc rule -a Pcmanfm desktop='^3' follow=on focus=on
 
 # 4 > office
-declare -a office=(Geany Gucharmap Evince \
-libreoffice-writer libreoffice-calc libreoffice-impress \
-libreoffice-startcenter libreoffice Soffice *:libreofficedev *:soffice)
-for i in ${office[@]}; do
-   bspc rule -a $i desktop='^4' follow=on focus=on; done
+#declare -a office=(Geany Gucharmap Evince \
+#libreoffice-writer libreoffice-calc libreoffice-impress \
+#libreoffice-startcenter libreoffice Soffice *:libreofficedev *:soffice)
+#for i in ${office[@]}; do
+#   bspc rule -a $i desktop='^4' follow=on focus=on; done
 
 # 5 > media
-declare -a media=(Audacity mpv mplayer lxmusic Gimp Gimp-2.8)
-for i in ${media[@]}; do
-   bspc rule -a $i desktop='^5' follow=on focus=on; done
+#declare -a media=(Audacity mpv mplayer lxmusic Gimp Gimp-2.8)
+#for i in ${media[@]}; do
+#   bspc rule -a $i desktop='^5' follow=on focus=on; done
 
 # 6 > settings
-bspc rule -a GParted desktop='^6' follow=on focus=on
-declare -a settings=(Lxappearance Lxtask Lxrandr Arandr \
-System-config-printer.py Pavucontrol Exo-helper-1)
-for i in ${settings[@]}; do
-   bspc rule -a $i desktop='^6' state=floating follow=on focus=on; done
+#bspc rule -a GParted desktop='^6' follow=on focus=on
+#declare -a settings=(Lxappearance Lxtask Lxrandr Arandr \
+#System-config-printer.py Pavucontrol Exo-helper-1)
+#for i in ${settings[@]}; do
+#   bspc rule -a $i desktop='^6' state=floating follow=on focus=on; done
 
 # special rules
-bspc rule -a termite-float state=floating follow=on focus=on
-bspc rule -a Pcmanfm state=floating follow=on focus=on
 bspc rule -a Nitrogen state=floating follow=on focus=on
 bspc rule -a Calculadora state=floating follow=on focus=on
 bspc rule -a Gcolor3 state=floating follow=on focus=on
