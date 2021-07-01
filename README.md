@@ -28,14 +28,13 @@ Esse script possui a intenção de instalar o gerenciador de janelas [bspwm](htt
 
 ### Sistema base
 
-Esse script foi testado e está disponível para ser executado no PoP!_OS 20.10 como base e não foi usado em outro sistema, caso queira executar por conta própria ou modificar na intenção de moldar conforme necessário para seu sistema, fique a vontade, porem não tem como me responsabilizar por isso. Para mais informações sobre o sistema utilizado: [Pop!_OS by System76](https://pop.system76.com/).
+Esse script foi testado e está disponível para ser executado no PoP!_OS 21.04 como base e não foi usado em outro sistema, caso queira executar por conta própria ou modificar na intenção de moldar conforme necessário para seu sistema, fique a vontade, porem não tem como me responsabilizar por isso. Para mais informações sobre o sistema utilizado: [Pop!_OS by System76](https://pop.system76.com/).
 
 ##
 
 ### Tela do sistema após script
 
-![01](https://user-images.githubusercontent.com/84329097/120730479-f269a080-c4b7-11eb-9d2b-f9182fcb923d.png)
-
+![01](https://user-images.githubusercontent.com/84329097/124180769-0e4a6d00-da8b-11eb-8efd-debe3c07f19d.png)
 
 #### Mais telas
 > Clique para visualizar
@@ -43,17 +42,17 @@ Esse script foi testado e está disponível para ser executado no PoP!_OS 20.10 
 <summary><b>Capturas de tela</b></summary>
 <br>
   
-![02](https://user-images.githubusercontent.com/84329097/120730511-06ad9d80-c4b8-11eb-8fd8-c06f55ec19b0.png)
+![02](https://user-images.githubusercontent.com/84329097/124180814-1c988900-da8b-11eb-80aa-e86b060cbdaa.png)
    
-![03](https://user-images.githubusercontent.com/84329097/120730512-07463400-c4b8-11eb-87e5-3519ab137696.png)
+![03](https://user-images.githubusercontent.com/84329097/124180817-1d311f80-da8b-11eb-8a88-c58cf470ee00.png)
    
-![04](https://user-images.githubusercontent.com/84329097/120730513-07deca80-c4b8-11eb-910b-43493313f723.png)
+![04](https://user-images.githubusercontent.com/84329097/124180818-1dc9b600-da8b-11eb-9bda-7ca9db723c78.png)
    
-![05](https://user-images.githubusercontent.com/84329097/120730515-07deca80-c4b8-11eb-8b4d-2471d0b52be3.png)
+![05](https://user-images.githubusercontent.com/84329097/124180819-1dc9b600-da8b-11eb-9ea4-737cbdade90f.png)
    
-![06](https://user-images.githubusercontent.com/84329097/120730518-08776100-c4b8-11eb-9102-54d04ef7ee44.png)
+![06](https://user-images.githubusercontent.com/84329097/124180822-1e624c80-da8b-11eb-80c4-105c5e830695.png)
    
-![07](https://user-images.githubusercontent.com/84329097/120730520-090ff780-c4b8-11eb-9299-66650d3c6517.png)
+![07](https://user-images.githubusercontent.com/84329097/124180823-1e624c80-da8b-11eb-833c-279a3813d699.png)
 
 
 </details>
@@ -114,7 +113,7 @@ Fontes usadas por esse tema:
 Uma vez instalado, para que consiga acessar o sistema utilizando o gerenciador de janelas *bspwm* é necessário selecioná-lo durante o *login*:
 - Quando estiver escrevendo a senha, existe uma engrenagem (:gear:) no canto inferior direito, através desse menu podemos trocar para *bspwm*:
 
-![image](https://user-images.githubusercontent.com/84329097/118713444-51f95800-b7f8-11eb-9f69-539adfd75b48.png)
+![bspwm](https://user-images.githubusercontent.com/84329097/124183641-e52bdb80-da8e-11eb-8471-3617038172df.png)
 
 - Depois de selecionar `bspwm` e digitar a sua senha, pressione <kbd>Enter</kbd>.
 
@@ -130,7 +129,7 @@ Seu sistema iniciará sem papel de parede, um tema bem feio e com alguns detalhe
 temos 3 formas de acessar o menu de aplicativos (Rofi):
 - `Maneira 1`:
 
-![image](https://user-images.githubusercontent.com/84329097/118716007-b74e4880-b7fa-11eb-91ea-9dbb6a607344.png)
+![barra](https://user-images.githubusercontent.com/84329097/124183685-f5dc5180-da8e-11eb-85b0-792012b06197.png)
 
 Por esse ícone no canto superior esquerdo.
 
@@ -146,8 +145,7 @@ Por esse ícone no canto superior esquerdo.
 
 Com Rofi aberto, escreva *personalizar* e abra o app:
 
-![image](https://user-images.githubusercontent.com/84329097/118718425-99361780-b7fd-11eb-9d46-14fd8b6a520c.png)
-
+![personalizar](https://user-images.githubusercontent.com/84329097/124183841-2de39480-da8f-11eb-9f22-c1070deb37d6.png)
 
 Fique a vontade para selecionar o tema desejado, selecionei o *Pop-dark*:
 
@@ -167,7 +165,7 @@ clique em <kbd>Aplicar</kbd> para que as alterações entrem em vigor.
 
 No menu de aplicativos, escreva *nitrogen* para buscar:
 
-![image](https://user-images.githubusercontent.com/84329097/118718846-1c576d80-b7fe-11eb-97ad-aa62dc2a00d2.png)
+![nitrogen](https://user-images.githubusercontent.com/84329097/124183750-0db3d580-da8f-11eb-8165-b05bde230f15.png)
 
 Com o app aberto, clique em *Preferences*
 
@@ -222,7 +220,8 @@ No menu *Geral* desmarque a opção *Mostrar por padrão barra de menu em novas 
 
 Tudo configurado, pode fechar o terminal com <kbd>Super</kbd> + <kbd>c</kbd> e pode reabrir (<kbd>Super</kbd> + <kbd>Enter</kbd> ) para ver como ficou. Deve ficar desta forma:
 
-![image](https://user-images.githubusercontent.com/84329097/118720775-680b1680-b800-11eb-8b73-4c3ec38ca6e0.png)
+![terminal](https://user-images.githubusercontent.com/84329097/124183812-1f957880-da8f-11eb-9195-3de53f90cc90.png)
+
 
 ##
 </details>
