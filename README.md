@@ -124,7 +124,7 @@ Uma vez instalado, para que consiga acessar o sistema utilizando o gerenciador d
 <details>
 <summary><b>Menu de aplicativos</b></summary>
 
-Seu sistema iniciará sem papel de parede, um tema bem feio e com alguns detalhes faltando refinamento.
+Seu sistema iniciará sem papel de parede e com alguns detalhes faltando refinamento.
 
 temos 3 formas de acessar o menu de aplicativos (Rofi):
 - `Maneira 1`:
@@ -231,7 +231,7 @@ Tudo configurado, pode fechar o terminal com <kbd>Super</kbd> + <kbd>c</kbd> e p
 
 No canto superior direito existe um botão vermelho com a função de ter as seguintes possibilidades: Bloquear a tela, Deixar o computador em espera, Sair (logoff), Reiniciar e Desligar:
 
-![image](https://user-images.githubusercontent.com/84329097/118721077-c59f6300-b800-11eb-9f52-c6aeffa87672.png)
+![desligamento](https://user-images.githubusercontent.com/84329097/124185228-11e0f280-da91-11eb-9970-9f9d8853a479.png)
 
 Uma vez escolhida uma função, *Sair* por exemplo, o sistema não pedirá confirmação, executando na mesma hora.
 
@@ -244,7 +244,7 @@ Observação: para utilizar as funções Bloquear e Em espera é necessário ter
 ### Teclas de atalhos
 Para utilização do *bspwm* vai notar que muitas das vezes o teclado é o nosso melhor amigo, para isso precisamos aprender alguns atalhos interessantes para nossa utilização.
 
-Caso queira personalizar algum, acrecentar ou remover, pode ser realizado editando o arquivos: `~/.config/sxhkd/sxhkdrc`.
+Caso queira personalizar algum, acrecentar ou remover, pode ser realizado editando o arquivo: `~/.config/sxhkd/sxhkdrc`.
 
 Seguem os atalho já configurados:
 
