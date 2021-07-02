@@ -17,13 +17,13 @@ sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y
 sleep 3s
 
 	echo "#---------------------------Instalando base BSPWM----------------------------#"
-	sudo apt install bspwm polybar sxhkd rofi mate-polkit nitrogen lxappearance compton -y
+	sudo apt install bspwm polybar sxhkd rofi mate-polkit nitrogen lxappearance compton i3lock -y
 
 	clear
 	echo "#----------------------------Sistema atualizado------------------------------#"
 	echo "#---------------------------Base BSPWM instalada-----------------------------#"
 sleep 3s	
-	echo "#----------------Apps complementares (neofetch, htop e scrot)----------------#"
+	echo "#-------------------Apps complementares (neofetch e htop)--------------------#"
 	sudo apt install neofetch htop -y
 
 	clear
