@@ -50,7 +50,7 @@ case $chosen in
         systemctl reboot
         ;;
     $lock)
-        xflock4
+        i3lock -c 000000
         ;;
     $suspend)
         systemctl suspend
