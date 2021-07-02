@@ -235,7 +235,7 @@ No canto superior direito existe um botão vermelho com a função de ter as seg
 
 Uma vez escolhida uma função, *Sair* por exemplo, o sistema não pedirá confirmação, executando na mesma hora.
 
-Observação: para utilizar as funções Bloquear e Em espera é necessário ter instalado o betterlockscreen ([link com instruções de instalação](https://github.com/pavanjadhaw/betterlockscreen#installation)).
+Observação: para utilizar a funções Bloquear foi usado o [i3lock](https://github.com/i3/i3lock). Para desbloquear a tela, que foi configurada para ficar toda preta, basta digitar a senha e pressionar <kbd>Enter</kbd>.
 
 </details>
 
