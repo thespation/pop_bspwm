@@ -34,7 +34,8 @@ Esse script foi testado e está disponível para ser executado no PoP!_OS 21.04 
 
 ### Tela do sistema após script
 
-![01](https://user-images.githubusercontent.com/84329097/124180769-0e4a6d00-da8b-11eb-8efd-debe3c07f19d.png)
+![01](https://user-images.githubusercontent.com/84329097/125102607-db6b2f00-e0b1-11eb-830c-f1b78d0fdf62.png)
+
 
 #### Mais telas
 > Clique para visualizar
@@ -42,18 +43,17 @@ Esse script foi testado e está disponível para ser executado no PoP!_OS 21.04 
 <summary><b>Capturas de tela</b></summary>
 <br>
   
-![02](https://user-images.githubusercontent.com/84329097/124180814-1c988900-da8b-11eb-80aa-e86b060cbdaa.png)
+![02](https://user-images.githubusercontent.com/84329097/125102630-e32ad380-e0b1-11eb-9b66-b968499f3c2d.png)
    
-![03](https://user-images.githubusercontent.com/84329097/124180817-1d311f80-da8b-11eb-8a88-c58cf470ee00.png)
+![03](https://user-images.githubusercontent.com/84329097/125102635-e3c36a00-e0b1-11eb-9c06-cf17a11c67ec.png)
    
-![04](https://user-images.githubusercontent.com/84329097/124180818-1dc9b600-da8b-11eb-9bda-7ca9db723c78.png)
+![04](https://user-images.githubusercontent.com/84329097/125102637-e3c36a00-e0b1-11eb-84cf-95149a1e7816.png)
    
-![05](https://user-images.githubusercontent.com/84329097/124180819-1dc9b600-da8b-11eb-9ea4-737cbdade90f.png)
+![05](https://user-images.githubusercontent.com/84329097/125102638-e45c0080-e0b1-11eb-8563-87cb9bb5fcfa.png)
    
-![06](https://user-images.githubusercontent.com/84329097/124180822-1e624c80-da8b-11eb-80c4-105c5e830695.png)
+![06](https://user-images.githubusercontent.com/84329097/125102639-e45c0080-e0b1-11eb-81c8-a6baccc08951.png)
    
-![07](https://user-images.githubusercontent.com/84329097/124180823-1e624c80-da8b-11eb-833c-279a3813d699.png)
-
+![07](https://user-images.githubusercontent.com/84329097/125102641-e4f49700-e0b1-11eb-9ac3-b12ae2fd8af2.png)
 
 </details>
 
