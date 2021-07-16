@@ -1,11 +1,7 @@
 ##---------- Keybindings for bspwm ----------##
 
-# Terminal (termite)
+# Terminal
 super + Return
-	gnome-terminal &
-
-# Floating terminal
-super + shift + Return
 	gnome-terminal &
 
 ##---------- Rofi Launcher & Menus ----------##
@@ -16,13 +12,13 @@ alt + F1
 
 
 # Rofi Menus
-super + {w,x}
-	sh ~/.config/bspwm/rofi/bin/{windows,powermenu}
+super + {w,x,t}
+	sh ~/.config/bspwm/rofi/bin/{windows,powermenu,themes}
 	
 ##---------- Applications ----------##
 
 # Gerenciador de arquivos
-super + g
+super + shift + t
 	nautilus &
 
 ##---------- System ----------##
@@ -43,10 +39,6 @@ XF86Audio{Next,Prev,Play,Stop}
 	mpc {next,prev,toggle,stop}
 
 ##---------- Bspwm ----------##
-
-# Lockscreen
-ctrl + alt + l
-    betterlockscreen -l
 
 # Reload Keybindings
 super + Escape
