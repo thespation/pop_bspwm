@@ -1,0 +1,120 @@
+#!/usr/bin/env bash
+
+## Dirs #############################################
+polybar_path="$HOME/.config/bspwm/polybar"
+rofi_path="$HOME/.config/bspwm/rofi"
+dunst_path="$HOME/.config/dunst"
+
+# polybar ---------------------------------
+change_bar() {
+	sed -i -e "s/STYLE=.*/STYLE=\"$1\"/g" "$polybar_path"/launch.sh
+	sed -i -e "s/font-0 = .*/font-0 = \"$2\"/g" "$polybar_path"/"$1"/config.ini
+}
+
+# rofi ---------------------------------
+change_rofi() {
+	sed -i -e "s/STYLE=.*/STYLE=\"$1\"/g" "$rofi_path"/bin/mpd "$rofi_path"/bin/network "$rofi_path"/bin/screenshot
+	sed -i -e "s/DIR=.*/DIR=\"$1\"/g" "$rofi_path"/bin/launcher "$rofi_path"/bin/powermenu "$rofi_path"/bin/powermenu.sh "$rofi_path"/bin/windows
+	sed -i -e 's/STYLE=.*/STYLE="launcher"/g' "$rofi_path"/bin/launcher
+	sed -i -e 's/STYLE=.*/STYLE="powermenu"/g' "$rofi_path"/bin/powermenu
+	sed -i -e "s/font:.*/font:				 	\"$2\";/g" "$rofi_path"/"$1"/font.rasi
+
+	sed -i -e "s/font:.*/font:				 	\"$2\";/g" "$rofi_path"/dialogs/askpass.rasi "$rofi_path"/dialogs/confirm.rasi
+	sed -i -e "s/border:.*/border:					$3;/g" "$rofi_path"/dialogs/askpass.rasi "$rofi_path"/dialogs/confirm.rasi
+
+	sed -i -e "s/icon-theme:.*/icon-theme:         \"$4\";/g" "$rofi_path"/config.rasi
+
+	cat > "$rofi_path"/dialogs/colors.rasi <<- _EOF_
+	/* Color-Scheme */
+
+	* {
+	    BG:    #EDFEFEff;
+	    FG:    #303030ff;
+	    BDR:   #EF2D6Dff;
+	}
+	_EOF_
+}
+
+# gtk theme, icons and fonts ---------------------------------
+change_gtk() {
+	xfconf-query -c xsettings -p /Net/ThemeName -s "$1"
+	xfconf-query -c xsettings -p /Net/IconThemeName -s "$2"
+	xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "$3"
+	xfconf-query -c xsettings -p /Gtk/FontName -s "$4"
+}
+
+# dunst ---------------------------------
+change_dunst() {
+	sed -i -e "s/geometry = .*/geometry = \"$1\"/g" "$dunst_path"/dunstrc
+	sed -i -e "s/font = .*/font = $2/g" "$dunst_path"/dunstrc
+	sed -i -e "s/frame_width = .*/frame_width = $3/g" "$dunst_path"/dunstrc
+
+	cat > "$dunst_path"/sid <<- _EOF_
+		Light
+	_EOF_
+
+	sed -i '/urgency_low/Q' "$dunst_path"/dunstrc
+	cat >> "$dunst_path"/dunstrc <<- _EOF_
+		[urgency_low]
+		timeout = 2
+		background = "#EDFEFE"
+		foreground = "#303030"
+		frame_color = "#EDFEFE"
+
+		[urgency_normal]
+		timeout = 5
+		background = "#EDFEFE"
+		foreground = "#303030"
+		frame_color = "#EDFEFE"
+
+		[urgency_critical]
+		timeout = 0
+		background = "#EDFEFE"
+		foreground = "#EF2D6D"
+		frame_color = "#EDFEFE"
+	_EOF_
+
+	pkill dunst && dunst &
+}
+
+
+# Other ---------------------------------
+other_stuff() {
+	sed -i -e "s/progressbar_color = .*/progressbar_color = \"$1\"/g" "$HOME"/.ncmpcpp/config
+}
+
+
+## Execute Script -----------------------
+notify_user
+
+set_wall 'bg_5.jpg'																	# WALLPAPER
+
+change_bar 'pop-dark' 'Iosevka Nerd Font:size=10;3' && "$polybar_path"/launch.sh		# STYLE | FONT
+
+## Change colors in funct (ROFI)
+change_rofi 'pop-dark' 'Iosevka 10' '0px' 'Papirus-Apps'								# STYLE/DIR | FONT | BORDER | ICON
+
+change_nm 'pop-dark'
+																	# CONFIG FILE DIR
+
+## Change colors in funct (TERMINAL)
+change_term 'Iosevka Custom' '9'													# FONT | SIZE
+
+## Change colors in funct (xfce4-terminal)
+change_xfterm 'Iosevka Custom 9'													# FONT
+
+change_geany 'pop-dark' 'Iosevka Custom 10'											# SCHEME | FONT
+
+change_gtk 'pop-dark' 'Luv-Folders' 'Archcraft-Cursor-Dark' 'Noto Sans 9'				# THEME | ICON | CURSOR | FONT
+
+## Change margin in funct (OPENBOX)
+obconfig 'pop-dark' 'LIMC' 'Noto Sans' '9' && openbox --reconfigure					# THEME | LAYOUT | FONT |SIZE
+
+## Change colors in funct (DUNST)
+change_dunst '280x50-20+20' 'Iosevka Custom 9' '0'									# GEOMETRY | FONT | BORDER
+
+## Paste settings in funct (PLANK)
+change_dock && cat "$HOME"/.cache/plank.conf | dconf load /net/launchpad/plank/docks/
+
+## Other stuff
+other_stuff 'black'

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+DIR="blocos"
+
+rofi -no-lazy-grab -show window -theme ~/.config/bspwm/rofi/$DIR/windows.rasi

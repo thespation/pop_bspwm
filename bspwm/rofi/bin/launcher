@@ -1,0 +1,6 @@
+#!/bin/sh
+
+DIR="blocos"
+STYLE="launcher"
+
+rofi -no-lazy-grab -show drun -theme ~/.config/bspwm/rofi/$DIR/"$STYLE".rasi
