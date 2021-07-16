@@ -260,7 +260,7 @@ clique em <kbd>Aplicar</kbd> para que as alterações entrem em vigor.
 <details>
 <summary><b>Papel de parede</b></summary>
 
-Para automatizar a troca do papel de parde junto como tema foi instalado o *feh*, porém, caso ache complicado mudar por ele, pode instalar o *nitrogen* e modificar por ele:
+Para automatizar a troca do papel de parde junto com o tema, foi instalado o *feh*, entretanto, caso ache complicado modificar, pode instalar o *nitrogen* e trocar por ele.
 Como instalar: `sudo apt install nitrogen -y`
 
 Uma vez instalado, no menu de aplicativos, escreva *nitrogen* para buscar:
