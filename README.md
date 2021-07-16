@@ -5,7 +5,10 @@
 - [`Sobre`](#sobre)
 - [`Sistema base`](#sistema-base)
 - [`Tela do sistema após script`](#tela-do-sistema-após-script)
-   - [`Mais telas`](#mais-telas)
+   - [`Pop`](#pop)
+   - [`Pop Dark`](#pop-dark)
+   - [`Nordico`](#nordico)
+   - [`Blocos`](#blocos)
 - [`Instalação`](#instalação)<br>
 - [`Dependências a serem instaladas via script`](#dependências-a-serem-instaladas-via-script)
    - `Fonts utilizadas para exibir polybar corretamente`
@@ -33,8 +36,47 @@ Esse script foi testado e está disponível para ser executado no PoP!_OS 21.04 
 ##
 
 ### Tela do sistema após script
+Nessa versão do *script*, há a possibilidade de selecionar um tema previamente configurado, cada qual incluindo suas personalizações: Papel de parede e temas específicos para o Rofi (menu de apps, menu de desligamento, seletor de tema e visualizador de janelas abertas).
 
-![01](https://user-images.githubusercontent.com/84329097/125102607-db6b2f00-e0b1-11eb-830c-f1b78d0fdf62.png)
+Durante a instalação, última etapa, perguntará qual é o tema desejado. Inicialmente, estão disponíveis as seguintes possibilidades:
+
+![image](https://user-images.githubusercontent.com/84329097/126004951-d04dac85-2d52-4063-9264-5ce1f54e14fb.png)
+
+Uma vez instalado, pode abrir esse menu com o atalho <kbd> W + t</kbd>.
+
+Seguem as telas para cada tema:
+
+### Pop
+Da nossa lista, o tema *Pop* é o único que aborda a temática clara, os demais obtam por utilizar um tema escuro (nada que não possa ser modificado).
+
+![03](https://user-images.githubusercontent.com/84329097/126006015-35730e9f-0fb1-488e-8432-e5952032e308.png)
+
+#### Mais telas
+> Clique para visualizar
+<details>
+<summary><b>Capturas de tela</b></summary>
+<br>
+  
+![01](https://user-images.githubusercontent.com/84329097/126006087-68e5bea7-0d60-4366-9673-b92620dfe2ee.png)
+   
+![02](https://user-images.githubusercontent.com/84329097/126006096-6f56ffa5-24ba-4a62-b0b7-a47f155390a6.png)
+   
+![04](https://user-images.githubusercontent.com/84329097/126006097-8db337a0-7cdb-4c00-9b7c-02d59756af1e.png)
+   
+![05](https://user-images.githubusercontent.com/84329097/126006100-b8ebe587-2a2d-4758-b0a3-ae3a49f99271.png)
+   
+![06](https://user-images.githubusercontent.com/84329097/126006101-088520e0-a295-449a-8e63-d223a198b176.png)
+   
+![07](https://user-images.githubusercontent.com/84329097/126006103-4e02593c-319f-46be-9215-806025bdd468.png)
+
+
+</details>
+
+##
+
+### Pop Dark
+
+![01](https://user-images.githubusercontent.com/84329097/126006575-10cab63c-6518-4efe-ab9e-e9713d02747e.png)
 
 
 #### Mais telas
@@ -43,18 +85,76 @@ Esse script foi testado e está disponível para ser executado no PoP!_OS 21.04 
 <summary><b>Capturas de tela</b></summary>
 <br>
   
-![02](https://user-images.githubusercontent.com/84329097/125102630-e32ad380-e0b1-11eb-9b66-b968499f3c2d.png)
+![02](https://user-images.githubusercontent.com/84329097/126006602-764f990d-4084-4282-9166-d6d767d496e2.png)
    
-![03](https://user-images.githubusercontent.com/84329097/125102635-e3c36a00-e0b1-11eb-9c06-cf17a11c67ec.png)
+![03](https://user-images.githubusercontent.com/84329097/126006607-717a65d1-2d29-47de-9c4a-2ba2b2661d58.png)
    
-![04](https://user-images.githubusercontent.com/84329097/125102637-e3c36a00-e0b1-11eb-84cf-95149a1e7816.png)
+![04](https://user-images.githubusercontent.com/84329097/126006609-58d31af8-98ab-4aa1-9de0-d0a7e6c2ca76.png)
    
-![05](https://user-images.githubusercontent.com/84329097/125102638-e45c0080-e0b1-11eb-8563-87cb9bb5fcfa.png)
+![05](https://user-images.githubusercontent.com/84329097/126006612-3c46217a-ebd2-4b78-b8c7-6be47cd94791.png)
    
-![06](https://user-images.githubusercontent.com/84329097/125102639-e45c0080-e0b1-11eb-81c8-a6baccc08951.png)
-   
-![07](https://user-images.githubusercontent.com/84329097/125102641-e4f49700-e0b1-11eb-9ac3-b12ae2fd8af2.png)
+![06](https://user-images.githubusercontent.com/84329097/126006614-6aaa3a41-10b2-4083-afb1-d30b33aa88b7.png)
 
+   
+</details>
+
+##
+
+### Nordico
+É o primeiro tema da nossa lista que exibe a barra na parte de baixo da tela:
+
+![01](https://user-images.githubusercontent.com/84329097/126007424-d0b8187f-4191-43c8-ab15-892f4373db19.png)
+
+#### Mais telas
+> Clique para visualizar
+<details>
+<summary><b>Capturas de tela</b></summary>
+<br>
+  
+![02](https://user-images.githubusercontent.com/84329097/126007448-b5183375-e710-42bd-9d45-d8c52e83dcc9.png)
+   
+![03](https://user-images.githubusercontent.com/84329097/126007450-b3ff38b0-41b8-4d15-ad07-e31b47b2b935.png)
+   
+![04](https://user-images.githubusercontent.com/84329097/126007451-db622c45-adc8-4fae-946c-b2d1b17a063f.png)
+   
+![05](https://user-images.githubusercontent.com/84329097/126007453-11d43eae-efc5-4368-99cb-93de919e9c49.png)
+   
+![06](https://user-images.githubusercontent.com/84329097/126007456-d193ced5-e241-4823-9868-b68c474c9692.png)
+
+   
+</details>
+
+##
+
+### Blocos
+Esse é para quem gosta de um pouco mais de cor:
+
+![01](https://user-images.githubusercontent.com/84329097/126007814-7603822c-84b3-4184-b22e-cc4fa1d22409.png)
+
+
+#### Mais telas
+> Clique para visualizar
+<details>
+<summary><b>Capturas de tela</b></summary>
+<br>
+  
+![02](https://user-images.githubusercontent.com/84329097/126007834-5e00e6ae-db52-400a-9973-e708fbe68e90.png)
+   
+![03](https://user-images.githubusercontent.com/84329097/126007839-4cef0064-742e-42ce-bb44-e2f983535e9f.png)
+   
+![04](https://user-images.githubusercontent.com/84329097/126007840-31c72d41-34d4-4554-be7a-de68b946a0e7.png)
+   
+![05](https://user-images.githubusercontent.com/84329097/126007842-bd453700-c973-4959-9648-cf4928648153.png)
+   
+Caso clique no menu, esse tema exibe mais opções:
+   
+![07](https://user-images.githubusercontent.com/84329097/126008031-905a3b52-6b1a-4859-8d9c-5675b05f8d11.png)
+   
+Podendo selecionar o menu de app (Rofi), gestor de arquivos (nautilus), terminal (gnome-terminal) e o navegador (Firefox):
+   
+![image](https://user-images.githubusercontent.com/84329097/126008143-19551f73-a5fd-42bf-932b-ca7422f95953.png)
+
+   
 </details>
 
 ##
@@ -124,14 +224,12 @@ Uma vez instalado, para que consiga acessar o sistema utilizando o gerenciador d
 <details>
 <summary><b>Menu de aplicativos</b></summary>
 
-Seu sistema iniciará sem papel de parede e com alguns detalhes faltando refinamento.
-
 temos 3 formas de acessar o menu de aplicativos (Rofi):
 - `Maneira 1`:
 
 ![barra](https://user-images.githubusercontent.com/84329097/124183685-f5dc5180-da8e-11eb-85b0-792012b06197.png)
 
-Por esse ícone no canto superior esquerdo.
+Por esse ícone no canto esquerdo.
 
 - `Maneira 2`: Pressionando a tecla <kbd>Super</kbd> (também conhecida por tecla Windows) ou
 
@@ -163,7 +261,10 @@ clique em <kbd>Aplicar</kbd> para que as alterações entrem em vigor.
 <details>
 <summary><b>Papel de parede</b></summary>
 
-No menu de aplicativos, escreva *nitrogen* para buscar:
+Para automatizar a troca do papel de parde junto como tema foi instalado o *feh*, porém, caso ache complicado mudar por ele, pode instalar o *nitrogen* e modificar por ele:
+Como instalar: `sudo apt install nitrogen -y`
+
+Uma vez instalado, no menu de aplicativos, escreva *nitrogen* para buscar:
 
 ![nitrogen](https://user-images.githubusercontent.com/84329097/124183750-0db3d580-da8f-11eb-8165-b05bde230f15.png)
 
@@ -229,7 +330,7 @@ Tudo configurado, pode fechar o terminal com <kbd>Super</kbd> + <kbd>c</kbd> e p
 <details>
 <summary><b>Menu de desligamento</b></summary>
 
-No canto superior direito existe um botão vermelho com a função de ter as seguintes possibilidades: Bloquear a tela, Deixar o computador em espera, Sair (logoff), Reiniciar e Desligar:
+No canto direito existe um botão com a função de ter as seguintes possibilidades: Bloquear a tela, Deixar o computador em espera, Sair (logoff), Reiniciar e Desligar:
 
 ![desligamento](https://user-images.githubusercontent.com/84329097/124185228-11e0f280-da91-11eb-9970-9f9d8853a479.png)
 
@@ -255,6 +356,8 @@ Seguem os atalho já configurados:
 Legenda: <kbd> W</kbd> = Tecla Windows
 
 <kbd> W</kbd> - Menu de aplicativos
+   
+<kbd> W + t</kbd> - Seletor de tema
 
 <kbd> W + w </kbd> - Mostra programas abertos (tecla Windows mais a tecla "w")
 
