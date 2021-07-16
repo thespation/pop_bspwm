@@ -31,7 +31,7 @@ Esse script possui a intenção de instalar o gerenciador de janelas [bspwm](htt
 
 ### Sistema base
 
-Esse script foi testado e está disponível para ser executado no PoP!_OS 21.04 como base e não foi usado em outro sistema, caso queira executar por conta própria ou modificar na intenção de moldar conforme necessário para seu sistema, fique a vontade, porem não tem como me responsabilizar por isso. Para mais informações sobre o sistema utilizado: [Pop!_OS by System76](https://pop.system76.com/).
+Esse script foi testado e está disponível para ser executado no PoP!_OS 21.04 como base e não foi usado em outro sistema, caso queira executar por conta própria ou modificar na intenção de moldar conforme necessário para seu sistema, fique à vontade, porém não tem como me responsabilizar por isso. Para mais informações sobre o sistema utilizado: [Pop!_OS by System76](https://pop.system76.com/).
 
 ##
 
@@ -47,7 +47,7 @@ Uma vez instalado, pode abrir esse menu com o atalho <kbd> W + t</kbd>.
 Seguem as telas para cada tema:
 
 ### Pop
-Da nossa lista, o tema *Pop* é o único que aborda a temática clara, os demais obtam por utilizar um tema escuro (nada que não possa ser modificado).
+Da nossa lista, o tema *Pop* é o único que aborda a temática clara, os demais optam por utilizar um tema escuro (nada que não possa ser modificado).
 
 ![03](https://user-images.githubusercontent.com/84329097/126006015-35730e9f-0fb1-488e-8432-e5952032e308.png)
 
@@ -175,7 +175,6 @@ cd /tmp && git clone https://github.com/thespation/pop_bspwm && chmod 755 pop_bs
 - **`Rofi`** : menu de aplicativos e desligamento personalizado
 - **`sxhkd`** : responsável pelos atalhos
 - **`mate-polkit`** : gestor de autenticação em caso de solicitação de permissão elevada
-- **`nitrogen`** : gestor de papel de parede
 - **`lxappearance`** : responsável por gerenciar o tema e ícones do sistema
 - **`snapd`** : permitirá a instalação do ksuperkey
 - **`ksuperkey`** : disponibilizará a possibilidade de habilitar o Rofi com uma tecla
