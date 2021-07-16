@@ -3,7 +3,7 @@
 # descrição: Instalar BSPWM no Pop!_OS
 # autor: William Santos
 # site: https://github.com/thespation/pop_bspwm
-# version: 2
+# version: 4 
 
 # set -e
 
@@ -17,7 +17,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y
 sleep 3s
 
 	echo "#---------------------------Instalando base BSPWM----------------------------#"
-	sudo apt install bspwm polybar sxhkd rofi mate-polkit nitrogen lxappearance compton i3lock -y
+	sudo apt install bspwm polybar sxhkd rofi mate-polkit feh lxappearance compton i3lock xfconf -y
 
 	clear
 	echo "#----------------------------Sistema atualizado------------------------------#"
@@ -62,8 +62,6 @@ sleep 3s
 	cp -r /tmp/pop_bspwm/sxhkd ~/.config
 	cp -rf /tmp/pop_bspwm/gtk-3.0/ ~/.config/
 
-sleep 3s
-	
 	clear
 	echo "#----------------------------Sistema atualizado------------------------------#"
 	echo "#---------------------------Base BSPWM instalada-----------------------------#"	
@@ -75,6 +73,9 @@ sleep 3s
 	echo "#                                                                            #"
 	echo "##############################################################################"
 	echo " "
-	echo "Seu computador reiniciará em 1 minuto, caso tenha alguma coisa importante aberta sem salvar, salve para não perder informação."
-sleep 1m
-	reboot
+	echo "Escolha o tema a ser usado e em seguida seu computador reiniciará:"
+sleep 6s
+
+	~/.config/bspwm/rofi/bin/themes.sh
+	wait; echo Finished
+	sudo reboot
