@@ -61,7 +61,7 @@ spacing = 0
 dim-value = 1.0
 
 wm-name = bspwm
-locale = 
+locale = pt_BR.UTF-8
 
 tray-position = right
 tray-detached = false
