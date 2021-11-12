@@ -1,5 +1,11 @@
 # Pop!_OS + bspwm
 
+# Este projeto não receberá mais atualizações
+Caso tenha interesse, segue projeto vigente: https://github.com/thespation/dpux_bspwm
+
+<hr>
+
+
 ### Índice
 
 - [`Sobre`](#sobre)
